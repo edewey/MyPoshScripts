@@ -2,7 +2,7 @@
 Simple PowerShell script to hash a file and compare it to an existing hash.
 
 ## usage
-```./Compare-FileHash.ps1 <path to file> <algorithm optional, defaults to sha256> <provided hash to check against>```
+```./Compare-FileHash.ps1 <path to file> <provided hash to check against> <algorithm optional, defaults to sha256>```
 
 Accepted algorithms are: sha1, sha256, sha384, sha512, and md5
 
